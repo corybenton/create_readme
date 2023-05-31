@@ -41,4 +41,4 @@ Yep.
 ## Questions
 
 If you have any questions, please contact Cory Benton at corybenton@gmail.com
-or at my [github](https://github.com/corybenton)corybenton.
+or at my [github](https://github.com/corybenton).
