@@ -81,7 +81,7 @@ ${response.description}
 - [Tests](#tests)
 - [Questions](#questions)
 
-##Badges
+## Badges
 
 [![${response.license} license]('https://img.shields.io/badge/License-${response.license}-blue.svg')]
 
@@ -108,5 +108,5 @@ ${response.tests}
 ## Questions
 
 If you have any questions, please contact ${response.author} at ${response.email}
-or at my [github]('https://github.com/${response.github})'.`
+or at my [github]('https://github.com/${response.github}').`
 }
