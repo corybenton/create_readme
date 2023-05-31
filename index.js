@@ -1,5 +1,6 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
+let licenseUrl;
 
 const questions = ["What is the title of the project?", "What is a short description of the project?",
     "Who is the author of the project?", "What is your email address?", "What is your github name?", 
@@ -55,8 +56,7 @@ inquirer.prompt([
     },
 ])
 .then((response) => {
-    let licenseUrl
-    getLicenseUrl(response.license);
+    getLicenseUrl(response.license, licenseUrl);
     readmeText(response, licenseUrl);
     fs.writeFile('README.md', fileInfo, (err) => {
         if (err) {
