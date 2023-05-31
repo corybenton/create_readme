@@ -98,7 +98,7 @@ ${response.description}
 
 ## Badges
 
-[![${response.license} license]('https://img.shields.io/badge/License-${response.license}-blue.svg')](${license})
+[![${response.license} license](https://img.shields.io/badge/License-${response.license}-blue.svg)](${license})
 
 ## Installation
 

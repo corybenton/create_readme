@@ -16,15 +16,15 @@ to auto create a readme file
 
 ## Badges
 
-[![MIT license]('https://img.shields.io/badge/License-MIT-blue.svg')](https://lbesson.mit-license.org/)
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 
 ## Installation
 
-Download from github and run in VSCode.
+Download program from github and then run in VSCode.
 
 ## Usage
 
-Run `node index.js` on terminal command line. Answer questions. A readme file will be created with the information.
+Run `node index.js` on terminal command line. Answer questions. A readme file will be created with that information.
 
 ## License
 
@@ -36,7 +36,7 @@ To contribute anything, please contact Cory Benton at corybenton@gmail.com.
 
 ## Tests
 
-Ran through questions to see if the appropriate information was conveyed.
+Ran through questions to insure the appropriate information was conveyed.
 
 ## Questions
 
