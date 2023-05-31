@@ -55,7 +55,9 @@ inquirer.prompt([
     },
 ])
 .then((response) => {
-    readmeText(response);
+    let licenseUrl
+    getLicenseUrl(response.license);
+    readmeText(response, licenseUrl);
     fs.writeFile('README.md', fileInfo, (err) => {
         if (err) {
             console.error(err);
@@ -63,7 +65,20 @@ inquirer.prompt([
     });
 });
 
-function readmeText(response) {
+function getLicenseUrl(license){
+    if (license == 'MIT') {
+        licenseUrl = 'https://lbesson.mit-license.org/';
+    } else if (license == 'GPLv3' || license == 'GPL') {
+        licenseUrl = 'http://perso.crans.org/besson/LICENSE.html';
+    } else if (license == 'Unlicense') {
+        licenseUrl = 'https://unlicense.org';
+    } else {
+        licenseUrl = 'https://creativecommons.org/licenses/by-nd/4.0';
+    }
+    return licenseUrl;
+}
+
+function readmeText(response, license) {
     fileInfo = 
 `# ${response.name}
 
@@ -83,7 +98,7 @@ ${response.description}
 
 ## Badges
 
-[![${response.license} license]('https://img.shields.io/badge/License-${response.license}-blue.svg')]
+[![${response.license} license]('https://img.shields.io/badge/License-${response.license}-blue.svg')](${license})
 
 ## Installation
 
