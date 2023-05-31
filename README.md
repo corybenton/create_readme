@@ -20,11 +20,11 @@ to auto create a readme file
 
 ## Installation
 
-Download program from github and then run in VSCode.
+Download from github and run in VSCode.
 
 ## Usage
 
-Run `node index.js` on terminal command line. Answer questions. A readme file will be created with that information.
+Run `node index.js`
 
 ## License
 
@@ -36,9 +36,9 @@ To contribute anything, please contact Cory Benton at corybenton@gmail.com.
 
 ## Tests
 
-Ran through questions to insure the appropriate information was conveyed.
+Yep.
 
 ## Questions
 
 If you have any questions, please contact Cory Benton at corybenton@gmail.com
-or at my [github]('https://github.com/corybenton').
+or at my [github](https://github.com/corybenton)corybenton.

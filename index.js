@@ -123,5 +123,5 @@ ${response.tests}
 ## Questions
 
 If you have any questions, please contact ${response.author} at ${response.email}
-or at my [github]('https://github.com/${response.github}').`
+or at my [github](https://github.com/${response.github})${response.github}.`
 }
