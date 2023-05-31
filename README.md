@@ -24,7 +24,7 @@ Download from github and run in VSCode.
 
 ## Usage
 
-Run `node index.js`
+Run `node index.js` in terminal command line. Answer questions. A readme file will be created with that information.
 
 ## License
 
@@ -36,7 +36,7 @@ To contribute anything, please contact Cory Benton at corybenton@gmail.com.
 
 ## Tests
 
-Yep.
+Ran through questions to insure all the correct information was conveyed.
 
 ## Questions
 
