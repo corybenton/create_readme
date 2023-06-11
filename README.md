@@ -1,8 +1,8 @@
-# logo
+# create_readme
 
 ## Description
 
-to create logo through node 
+to auto create a readme file
 
 ## Table of Contents
 
@@ -20,13 +20,11 @@ to create logo through node
 
 ## Installation
 
-Download from github and run in VS Code
+Download from github and run in VSCode.
 
 ## Usage
 
-This is for anyone to create a simple logo of a shape (circle, triangle, or square) and three letters with any color for text and background.
-Once downloaded you need to run `node index.js` from VS Code or similar program, input the data and an svg file will be written.
-[Tutorial](https://drive.google.com/file/d/1pmVFK_nMDJQvu9QxRNtPj14yGeb76UZp/view)
+Run `node index.js` in terminal command line. Answer questions. A readme file will be created with that information.
 
 ## License
 
@@ -38,7 +36,7 @@ To contribute anything, please contact Cory Benton at corybenton@gmail.com.
 
 ## Tests
 
-I verified that the appropriate information was sent through the program.
+Ran through questions to insure all the correct information was conveyed.
 
 ## Questions
 
