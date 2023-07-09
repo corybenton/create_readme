@@ -1,8 +1,8 @@
-# create_readme
+# ecom_backend
 
 ## Description
 
-to auto create a readme file
+a backend application for e-commerce
 
 ## Table of Contents
 
@@ -20,11 +20,11 @@ to auto create a readme file
 
 ## Installation
 
-Download from github and run in VSCode.
+Download from github.  Then from the root of that file, login into mysql and begin `db/schema.sql`.  Next initialize the database by typing in the command prompt `node seeds/index.js`.  Finally start the server by typing `node server.js`.
 
 ## Usage
 
-Run `node index.js` in terminal command line. Answer questions. A readme file will be created with that information.
+It can be used to see, add to, update and delete from the database.  These actions can be run with Insomnia.
 
 ## License
 
@@ -36,7 +36,7 @@ To contribute anything, please contact Cory Benton at corybenton@gmail.com.
 
 ## Tests
 
-Ran through questions to insure all the correct information was conveyed.
+Tested all the routes for each of the tables in the database.
 
 ## Questions
 
